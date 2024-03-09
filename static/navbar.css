@@ -1,0 +1,54 @@
+/* Navbar container */
+nav {
+    background-color: transparent; /* Transparent background */
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navbar list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navbar items */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Navbar links */
+nav ul li a {
+    display: block;
+    color: black; /* Black text color */
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+    color: #f56a6a; /* Soft red hover color */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
