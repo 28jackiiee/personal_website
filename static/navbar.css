@@ -25,7 +25,7 @@ nav ul li {
 /* Navbar links */
 nav ul li a {
     display: block;
-    color: black; /* Black text color */
+    color: #4f979f; /* Updated to white for better visibility */
     text-align: center;
     padding: 20px 0;
     text-decoration: none;
@@ -38,7 +38,7 @@ nav ul li a {
 
 /* Change the link color on hover */
 nav ul li a:hover {
-    color: #f56a6a; /* Soft red hover color */
+    color: #add8e6; /* Light blue hover color for contrast */
 }
 
 /* Responsive adjustments */
@@ -47,7 +47,6 @@ nav ul li a:hover {
         flex-direction: column;
         padding-top: 20px;
     }
-
     nav ul li {
         margin: 10px 0;
     }

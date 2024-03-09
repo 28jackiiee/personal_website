@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="static/projects.css">
+{% load static %}
+<link rel="stylesheet" href="{% static 'projects.css' %}">
+<link rel="stylesheet" href="{% static 'navbar.css' %}">
+
+
+{% include 'navbar.html' %}
 
 <section>
     <h2>Projects</h2>

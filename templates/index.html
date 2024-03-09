@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="static/navbar.css">
     <link rel="stylesheet" href="static/index.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-        {% include 'navbar.html' %}
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is a placeholder for information about the website owner.</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Feel free to reach out via email at <a href="mailto:email@example.com">email@example.com</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Personal Website</p>
-    </footer>
+
+    <div>
+        <header>
+            <h1>Welcome to Our Website</h1>
+            <p>Your one-stop hub for all things tech.</p>
+        </header>
+        <main>
+            <section>
+                <h2>About Us</h2>
+                <p>We are a team of passionate individuals dedicated to bringing you the latest in technology and innovation. Our projects range from web development to cutting-edge research in AI.</p>
+            </section>
+            <section>
+                <h2>Featured Projects</h2>
+                <div class="projects-container">
+                    <article class="project">
+                        <h3>Project Alpha</h3>
+                        <p>This project focuses on developing sustainable tech solutions for everyday problems.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </article>
+                    <article class="project">
+                        <h3>Project Beta</h3>
+                        <p>An exploration into the world of artificial intelligence and machine learning.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
